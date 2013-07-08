@@ -117,6 +117,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Lib\CustomAsync.cs" />
+    <Compile Include="Lib\CustomAwaitable.cs" />
     <Compile Include="Lib\CustomeDelay.cs" />
     <Compile Include="Lib\SomeService.cs" />
     <Compile Include="Lib\UseStopwatchAttribute.cs" />
